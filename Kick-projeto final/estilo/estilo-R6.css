@@ -1,0 +1,78 @@
+.info-game{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-game{
+    height: 216px;
+    width: 153px;
+    margin: 30px;
+}
+
+.img-logo-jogo img{
+    height: 263px;
+    width: 521px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.textos1{
+    margin-top: 70px;
+}
+
+.textos1 h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textos1 h4{
+    color: #b7b7b7;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.tag{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box1{
+    background-color: #fff;
+    height: 31px;
+    width: 91px;
+    margin-top: 30px;
+}
+
+.box1 p, .box2 p{
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.box2{
+    margin-left: 20px;
+    background-color: #fff;
+    height: 31px;
+    width: 144px;
+    margin-top: 30px;
+}
+
+.info-game2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.info-game2 p{
+    color: #b7b7b7;
+    font-size: 20px;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    overflow: hidden;
+    background-color: #000000;
+    padding: 3em 0;
+    border-top: 1px solid #ffffff;
+}
+
+.body-footer{
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+
+.title h3{
+    color: #909090;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    text-align: center;
+}
+
+.title p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu{
+    float: right;
+}
+
+.home-footer{
+    display: block;
+    color: #b7b7b7;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.home-footer:hover{
+    font-display: bold;
+    color: #ffffff;
+}
+
+.logo-footer{
+    display: block;
+    padding: 12px 14px;
+    height: 67px;
+    width: 67px;
+}
+
+.dropdown-footer{
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.dropdown-footer .dropbtn-footer{
+    font-size: 21px;
+    border: none;
+    outline: none;
+    color: #b7b7b7;
+    padding: 30px;
+    background-color: inherit;
+    margin: 0;
+    padding-right: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content-footer{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding: 30px;
+}
+
+.dropdown-content-footer a{
+    font-size: 15px;
+}
+
+.dropdown-footer:hover .dropbtn-footer{
+    font-display: bold;
+    color: #ffffff;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.dropdown-content-footer a{
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content-footer a:hover{
+    background-color: #909090;
+    border: 1px solid #000000;
+}
+
+.dropdown-footer:hover .dropdown-content-footer{
+    display: block;
+}
+
+.infofooter{
+    color: #909090;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer-bottom{
+    color: #909090;
+}
