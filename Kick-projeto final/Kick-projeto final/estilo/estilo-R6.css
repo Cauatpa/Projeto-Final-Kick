@@ -1,0 +1,175 @@
+/*----------------LAYOUT DO JOGO---------------------*/
+*{
+    box-sizing: border-box;
+}
+
+
+.info-game{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-game{
+    height: 216px;
+    width: 153px;
+    margin: 30px;
+}
+
+.img-logo-jogo img{
+    height: 263px;
+    width: 521px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.textos1{
+    margin-top: 70px;
+}
+
+.textos1 h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textos1 h4{
+    color: #b7b7b7;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.tag{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box1{
+    background-color: #fff;
+    height: 31px;
+    width: 91px;
+    margin-top: 30px;
+}
+
+.box1 p, .box2 p{
+    text-align: center;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.box2{
+    margin-left: 20px;
+    background-color: #fff;
+    height: 31px;
+    width: 144px;
+    margin-top: 30px;
+}
+
+.info-game2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+
+.info-game2 p{
+    color: #b7b7b7;
+    font-size: 20px;
+}
+
+/*----------------SOBRE O JOGO---------------------*/
+
+.sobre-jogo{
+    border: 1px solid #fff;
+    height: 354px;
+    width: 1650px;
+    margin: 86px;
+}
+
+.sobre-jogo h3{
+    color: #fff;
+    margin: 20px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sobre-jogo p{
+    color: #fff;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*----------------IMGS DO JOGO---------------------*/
+
+.imgs-jogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 160px;
+}
+
+.img1, .img2, .img3, .img4{
+    border: 1px solid #fff;
+    margin: 80px;
+}
+
+.img1 img, .img2 img, .img3 img, .img4 img{
+    width: 597px;
+    height: 336px;
+}
+
+.infos{
+    width: 597px;
+    height: 104px;
+    border-top: 1px solid #fff;;
+}
+
+.infos h4{
+    color: #fff;
+    font-size: 20px;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.texto2{
+    height: 38px;
+    width: 520px;
+    background-color:  #272727;
+    margin-left: 25px;
+}
+
+.texto2 p{
+    color: #B7B7B7;
+    padding: 10px;
+    margin-left: 16px;
+}
+
+/*----------------VALIAÇÂO---------------------*/
+
+.avaliacao{
+    border: 1px solid #fff;
+    height: 354px;
+    width: 1650px;
+    margin: 86px;
+}
+
+.avaliacao h3{
+    color: #fff;
+    margin: 20px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.avaliacao p{
+    color: #fff;
+    margin: 30px;
+    font-size: 20px;
+}
