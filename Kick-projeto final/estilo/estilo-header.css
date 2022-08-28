@@ -10,10 +10,22 @@ body{
     border-bottom: 1px solid #ffffff;
 }
 
+.sanduiche{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    display: none;
+}
+
+.sanduiche:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
 
 .home{
-    float: left;
-    display: block;
+    float: left;  
     color: #b7b7b7;
     text-align: center;
     padding: 30px;
@@ -28,7 +40,6 @@ body{
 
 .logo{
     float: left;
-    display: block;
     text-align: center;
     margin: 10px;  
     height: 67px;
@@ -64,7 +75,7 @@ body{
     font-size: 15px;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn{
+.navbar a:hover, .dropdown:hover, .dropbtn{
     font-display: bold;
     color: #ffffff;
     font-size: 21px;
@@ -87,4 +98,8 @@ body{
 
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+@media (max-width: 700px) {
+
 }

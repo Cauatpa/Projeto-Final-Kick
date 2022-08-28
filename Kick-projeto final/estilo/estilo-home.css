@@ -3,38 +3,42 @@
 }
 
 .site-name img{
-    width: 1900px;
+    width: 1864px;
     height: 600px;
 }
 
 .desc{
-    color: #ffffff;
     align-items: center;
-    margin: 40px;
+    margin: 70px;
     padding: 0px;
     display: flex;
-    font-size: 20px;
     width: 62px;
     border-bottom: 1px solid #ffffff;
+    margin-top: 70px;
+}
+
+.desc p, .desc2 p{
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .desc2{
-    color: #ffffff;
     align-items: center;
-    margin: 40px;
+    margin: 70px;
     padding: 0px;
     display: flex;
-    font-size: 20px;
     width: 147px;
     border-bottom: 1px solid #ffffff;
+    margin-top: 140px;
 }
 
 
 .caixas{
-    margin: 40px;
+    margin: 70px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
 .caixa1, .caixa2, .caixa3{
@@ -75,4 +79,30 @@
 .caixa1:hover, .caixa2:hover, .caixa3:hover{
     border: 1px solid #ffffff;
     cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .site-name img{
+        width: 100%;
+        height: auto;
+    }
+    .desc{
+        margin: 120px;
+        margin-top: 40px;
+    }
+    .desc2{
+        margin: 120px;
+        margin-top: 0px;
+    }
+    .caixas{
+        margin: 120px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .caixa1, .caixa2, .caixa3{
+        margin-bottom: 40px;
+    }
+    .caixa1:hover, .caixa2:hover, .caixa3:hover{
+        border: 2px solid #ffffff;
+    }
 }
