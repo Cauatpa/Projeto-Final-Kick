@@ -1,10 +1,11 @@
 .site-name{
     border-bottom: 1px solid #ffffff;
+
 }
 
 .site-name img{
-    width: 1864px;
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 
 .desc{
@@ -52,6 +53,7 @@
 
 .caixa1 a, .caixa2 a, .caixa3 a{
     text-decoration: none;
+    height: auto;
 }
 
 .info2{

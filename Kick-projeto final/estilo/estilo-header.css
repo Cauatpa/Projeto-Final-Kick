@@ -75,7 +75,7 @@ body{
     font-size: 15px;
 }
 
-.navbar a:hover, .dropdown:hover, .dropbtn{
+.navbar a:hover, .dropdown:hover, .dropbtn:hover{
     font-display: bold;
     color: #ffffff;
     font-size: 21px;
