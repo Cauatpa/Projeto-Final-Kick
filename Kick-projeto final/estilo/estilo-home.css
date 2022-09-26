@@ -13,7 +13,7 @@
     margin: 70px;
     padding: 0px;
     display: flex;
-    width: 62px;
+    width: 70px;
     border-bottom: 1px solid #ffffff;
     margin-top: 70px;
 }
@@ -21,6 +21,7 @@
 .desc p, .desc2 p{
     font-size: 20px;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .desc2{
@@ -28,17 +29,17 @@
     margin: 70px;
     padding: 0px;
     display: flex;
-    width: 147px;
+    width: 144px;
     border-bottom: 1px solid #ffffff;
     margin-top: 140px;
 }
 
 
 .caixas{
-    margin: 70px;
+    margin: 20px;
     padding: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 90px;
 }
 
@@ -70,12 +71,13 @@
     color: #ffffff;
     margin: 14px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .info2 p{
     color: #b7b7b7;
     margin: 14px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .caixa1:hover, .caixa2:hover, .caixa3:hover{
