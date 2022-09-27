@@ -1,15 +1,5 @@
-# Projeto-Final-Kick
-<h1 align="center"> Projeto Final - Kick </h1>
-
-![Group 1](https://user-images.githubusercontent.com/101412705/187078654-20dc4bd6-6322-4096-b302-2d833f5b94b4.png)
-
-<h2> Home do site: </h2>
-
-![site2](https://user-images.githubusercontent.com/101412705/186996486-91888d71-d302-44c2-9331-34fc0925bfae.jpg)
-
-<h3> Como serão as paginas : </h3>
-
-![site](https://user-images.githubusercontent.com/101412705/186996412-bc0e328c-8089-438d-ab9e-2bdf6ea45fd2.jpg)
+# Projeto de front-end #Kick
+ <h2> Link do site hospedado: https://reviewzada.netlify.app
 
 
 
