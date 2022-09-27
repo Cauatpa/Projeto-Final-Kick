@@ -1,11 +1,12 @@
 .site-name{
-    border-bottom: 1px solid #ffffff;
+    
 
 }
 
 .site-name img{
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #ffffff;
 }
 
 .desc{
@@ -48,8 +49,12 @@
 }
 
 .caixas img{
-    width: 361px;
-    height: 229px;
+    width: 381px;
+    height: 250px;
+    border-bottom: 1px solid #909090;
+}
+.caixas img:hover{
+    border-bottom: 1px solid #ffffff;
 }
 
 .caixa1 a, .caixa2 a, .caixa3 a{
@@ -58,7 +63,6 @@
 }
 
 .info2{
-    border-top: 1px solid #909090;
     background-color: #000000;
     width: 361px;
     height: 92px;
