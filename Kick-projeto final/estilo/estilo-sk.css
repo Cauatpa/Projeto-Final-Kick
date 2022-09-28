@@ -161,7 +161,7 @@
 
 .avaliacao{
     border: 1px solid #fff;
-    height: 354px;
+    height: 600px;
     width: 1650px;
     margin: 86px;
 }
@@ -178,7 +178,7 @@
 .avaliacao p{
     color: #fff;
     margin: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
