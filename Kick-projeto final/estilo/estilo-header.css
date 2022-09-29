@@ -102,5 +102,23 @@ body{
 }
 
 @media (max-width: 700px) {
-
+    .topnav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .topnav .logo{
+        height: 50px;
+        width: 50px;
+    }
+    .topnav a{
+        font-size: 16px;
+    }
+    .dropdown .dropbtn{
+        font-size: 16px;
+    }
+    .dropdown a{
+        font-size: 14px;
+        z-index: 0;
+        padding: 10px;
+    }
 }

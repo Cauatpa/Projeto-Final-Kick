@@ -72,8 +72,7 @@
 }
 
 
-.social:hover{
-    border: 1px  2s solid #ffffff;
+.social a:hover{
     cursor: pointer;
 }
 
@@ -90,9 +89,5 @@
     }
     .infofooter{
         flex-wrap: wrap;
-        margin-left: 100px;
-    }
-    .cop{
-        margin-left: 110px;
     }
 }

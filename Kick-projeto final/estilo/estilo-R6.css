@@ -161,7 +161,7 @@
 
 .avaliacao{
     border: 1px solid #fff;
-    height: 354px;
+    height: 440px;
     width: 1650px;
     margin: 86px;
 }
@@ -178,16 +178,13 @@
 .avaliacao p{
     color: #fff;
     margin: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /*----------------RESPONSIVO---------------------*/
 
 @media (max-width: 700px){
-    .img-logo-jogo, .info-game2{
-        display: none;
-    }
     .sobre-jogo{
         width: 100%;
         height: auto;
@@ -195,27 +192,20 @@
         padding: 0;
         margin-top: 40px;
     }
-    .imgs-jogo{
-        margin: 0;
-        padding: 0;
-        flex-direction: column;
-    }
-    .img1, .img2, .img3, .img4{
-        margin: 20px;
-        padding: 0;
-    }
-    .img1 img, .img2 img, .img3 img, .img4 img, .infos{
-        width: 100%;
-        height: auto;
-    }
-    .texto2{
-        margin-bottom: 20px;
-    }
     .avaliacao{
         width: 100%;
         height: auto;
         margin: 0;
         padding: 0;
         margin-bottom: 40px;
+    }
+    .img-game{
+        display: none;
+    }
+    .textos1{
+        margin: 30px;
+    }
+    .img-logo-jogo, .info-game2{
+        display: none;
     }
 }
