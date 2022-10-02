@@ -208,4 +208,8 @@
     .img-logo-jogo, .info-game2{
         display: none;
     }
+    .img1, .img2, .img3, .img4{
+        display: flex;
+        width: 412px;
+    }
 }
