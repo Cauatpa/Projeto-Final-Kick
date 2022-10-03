@@ -1,5 +1,8 @@
 # Projeto de front-end #Kick - Reviewzada
- <h2> Link do site hospedado: https://reviewzada.netlify.app
+ <h3> Link do site hospedado: https://reviewzada.netlify.app </h3>
+ <p> PDF da home do site: [ReviewZada.pdf](https://github.com/Cauatpa/Projeto-de-front-end-kick/files/9701258/ReviewZada.pdf) 
+<p> PDF do modelo das paginas: [ReviewZada.pdf](https://github.com/Cauatpa/Projeto-de-front-end-kick/files/9701269/ReviewZada.pdf)
+<br>
 <p> Seção #1: menu + apresentação do site </p>
 
 ![WhatsApp Image 2022-10-02 at 20 27 14](https://user-images.githubusercontent.com/101412705/193481093-d655c18c-1fe7-42a3-990e-34538c02ca7c.jpeg)
