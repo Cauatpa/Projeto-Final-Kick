@@ -116,8 +116,8 @@
 .imgs-jogo{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 20px;
-    margin-left: 160px;
 }
 
 .img1, .img2, .img3, .img4{
@@ -207,5 +207,24 @@
     }
     .img-logo-jogo, .info-game2{
         display: none;
+    }
+    .imgs-jogo{
+        width: 375px;
+        margin: 20px;
+    }
+    .img1, .img2, .img3, .img4{
+        width: 375px;
+    }
+    .img1 img, .img2 img, .img3 img, .img4 img{
+        width: 373px;
+    }
+    .texto2{
+        height: 38px;
+        width: 360px;
+        margin: 7px;
+    }
+    .texto2 p{
+        margin: 0px;
+        padding: 2px;
     }
 }
