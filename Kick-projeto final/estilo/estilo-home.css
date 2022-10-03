@@ -40,8 +40,11 @@
     margin-bottom: 90px;
 }
 
-.caixa1, .caixa2, .caixa3{
+
+
+.caixa1, .caixa2{
     border: 1px solid #909090;
+    transition: 00.3s all;
 }
 
 .caixas img{
@@ -53,7 +56,7 @@
     border-bottom: 1px solid #ffffff;
 }
 
-.caixa1 a, .caixa2 a, .caixa3 a{
+.caixa1 a, .caixa2 a{
     text-decoration: none;
     height: auto;
 }
@@ -80,9 +83,10 @@
     font-size: 16px;
 }
 
-.caixa1:hover, .caixa2:hover, .caixa3:hover{
+.caixa1:hover, .caixa2:hover{
     border: 1px solid #ffffff;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 @media (max-width: 700px) {
@@ -105,8 +109,5 @@
     }
     .caixa1, .caixa2, .caixa3{
         margin-bottom: 40px;
-    }
-    .caixa1:hover, .caixa2:hover, .caixa3:hover{
-        border: 2px solid #ffffff;
     }
 }

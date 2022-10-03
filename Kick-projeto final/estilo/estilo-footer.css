@@ -61,19 +61,35 @@
 }
 
 .social{
-    display: flex;
     margin: 20px;
 }
 
-.social img{
-    height: 40px;
-    width: 40px;
-    margin-left: 30px;
+.social a{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
 }
-
+.social img{
+    height: 20px;
+    width: 20px;
+    color: #000000;
+    transition: 00.3s all;
+}
 
 .social a:hover{
     cursor: pointer;
+    background-color: #909090;
+}
+
+.social a:hover > img{
+    transform: scale(1.5);
 }
 
 .cop h4{
